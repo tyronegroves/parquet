@@ -10,7 +10,7 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
-	"github.com/kostya-sh/parquet-go/parquetformat/internal/thrift"
+	"github.com/tyronegroves/parquet/thrift"
 )
 
 // (needed to ensure safety because of naive import list construction.)

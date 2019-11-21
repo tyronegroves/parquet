@@ -5,4 +5,4 @@ package thrift
 
 // 2. Run thrift compiler
 //
-//go:generate thrift --out .. --gen go:package=$GOPACKAGE,thrift_import=github.com/kostya-sh/parquet-go/parquetformat/internal/thrift,read_write_private parquet.thrift
+//go:generate thrift --out .. --gen go:package=$GOPACKAGE,thrift_import=github.com/tyronegroves/parquet/thrift,read_write_private parquet.thrift
