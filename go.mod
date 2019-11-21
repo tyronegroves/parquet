@@ -1,3 +1,3 @@
-module parquet
+module github.com/tyronegroves/parquet
 
 go 1.13
